@@ -22,6 +22,7 @@ export default function FooterSection({
   brand = "شركة العمود الحديدي لاستيراد الآلات والمعدات الثقيلة",
   designerLabel = "تم التطوير بواسطة منفذ",
   designerHref = "https://mnfd.ly",
+  companyName,
 }: {
   className?: string;
   email?: string;
@@ -30,6 +31,7 @@ export default function FooterSection({
   brand?: string;
   designerLabel?: string;
   designerHref?: string;
+  companyName?: string;
 }) {
   return (
     <footer dir="rtl" className={cn("py-16 bg-background", className)}>
@@ -197,7 +199,7 @@ export default function FooterSection({
                       العلامة التجارية
                     </div>
                     <div className="text-4xl font-semibold tracking-tight sm:text-5xl">
-                      التقنية العصرية
+                      {companyName}
                     </div>
                     <div className="text-sm text-white/60">{brand}</div>
                   </div>

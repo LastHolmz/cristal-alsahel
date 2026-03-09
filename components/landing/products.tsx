@@ -11,25 +11,25 @@ const SUB = "منتجاتنا المتميزة";
 
 const PRODUCTS = [
   {
-    title: "حفارات",
-    badge: "آليات ثقيلة",
+    title: "زيت زينون",
+    badge: "مواد غذائية",
     image: "/products/1.jpg",
   },
-  { title: "سيارات متنوعة", badge: "مركبات", image: "/products/2.jpg" },
-  { title: "شاحنات نقل", badge: "شاحنات", image: "/products/3.jpg" },
+  { title: "طماطم معلب", badge: "مواد غذائية", image: "/products/2.jpg" },
+  { title: "اجبان", badge: "مواد غذائية", image: "/products/3.jpg" },
   {
-    title: "دراجات نارية",
-    badge: "دراجات",
+    title: "فواكه طازجة",
+    badge: "مواد غذائية",
     image: "/products/4.jpg",
   },
   {
-    title: "لوادر كواشيك",
-    badge: "آليات ثقيلة",
+    title: "خضروات طازجة",
+    badge: "مواد غذائية",
     image: "/products/5.jpg",
   },
   {
-    title: "قطع غيار أصلية",
-    badge: "قطع غيار",
+    title: "منتجات أخرى",
+    badge: "مواد غذائية",
     image: "/products/6.jpg",
   },
 ] as const;
@@ -89,8 +89,8 @@ export default function ProductsSection() {
 
             <div className="p-4">
               <TextAnimation as="div" className="text-sm text-muted-foreground">
-                <span className="text-yellow-500">●</span> متاح ضمن قائمة
-                التوريد والاستيراد
+                <span className="text-blue-500">●</span> متاح ضمن قائمة التوريد
+                والاستيراد
               </TextAnimation>
             </div>
           </div>

@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { TextAnimation } from "@/components/text-animation";
 import { data } from "@/lib/data";
+import Link from "next/link";
 
 function toTelLibya(raw: string) {
   const digits = raw.replace(/[^\d]/g, "");
@@ -63,7 +64,7 @@ export default function HeroSection() {
               <div className="flex flex-col items-stretch justify-center gap-3 sm:flex-row">
                 <Button
                   className={cn(
-                    "rounded-2xl bg-yellow-500 text-black hover:bg-yellow-400 yellow-glow",
+                    "rounded-2xl bg-blue-500 text-black hover:bg-blue-400 blue-glow",
                   )}
                   asChild
                 >
@@ -79,9 +80,9 @@ export default function HeroSection() {
                   )}
                   asChild
                 >
-                  <a href={telHref}>
+                  <Link href={telHref}>
                     <TextAnimation as="span">اتصل بنا</TextAnimation>
-                  </a>
+                  </Link>
                 </Button>
               </div>
             </motion.div>
@@ -89,7 +90,7 @@ export default function HeroSection() {
         </div>
 
         {/* glow أصفر خفيف جداً */}
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-yellow-500/10 to-transparent" />
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-blue-500/10 to-transparent" />
       </div>
     </section>
   );

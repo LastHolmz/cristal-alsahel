@@ -58,7 +58,7 @@ export default function ContactSection() {
                       )}
                     >
                       <div className="flex items-center gap-3">
-                        <IconPhone className="h-4 w-4 text-yellow-500" />
+                        <IconPhone className="h-4 w-4 text-blue-500" />
                         <TextAnimation
                           as="span"
                           className="text-sm font-semibold"
@@ -97,7 +97,7 @@ export default function ContactSection() {
                       العنوان
                     </TextAnimation>
                     <div className="flex items-start gap-3">
-                      <IconPin className="mt-1 h-4 w-4 text-yellow-500" />
+                      <IconPin className="mt-1 h-4 w-4 text-blue-500" />
                       <TextAnimation
                         as="div"
                         className="text-sm text-foreground/85"

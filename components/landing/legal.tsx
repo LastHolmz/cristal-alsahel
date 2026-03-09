@@ -68,7 +68,7 @@ export default function LegalSection() {
                   "group w-full rounded-[24px] text-right transition",
                   "border border-black/10 bg-background/55 backdrop-blur-xl",
                   "hover:bg-background/70",
-                  isActive && "ring-1 ring-yellow-500/35 yellow-glow",
+                  isActive && "ring-1 ring-blue-500/35 blue-glow",
                 )}
               >
                 <div className="flex items-center justify-between gap-4 p-4 sm:p-5">
@@ -98,7 +98,7 @@ export default function LegalSection() {
                     <span className="hidden sm:inline">
                       <TextAnimation as="span">تفاصيل</TextAnimation>
                     </span>
-                    <IconArrowLeft className="h-4 w-4 text-yellow-500 transition group-hover:translate-x-0.5" />
+                    <IconArrowLeft className="h-4 w-4 text-blue-500 transition group-hover:translate-x-0.5" />
                   </div>
                 </div>
               </button>
@@ -140,7 +140,7 @@ export default function LegalSection() {
                   </div>
 
                   <Button
-                    className="w-full rounded-2xl bg-yellow-500 text-black hover:bg-yellow-400 yellow-glow"
+                    className="w-full rounded-2xl bg-blue-500 text-black hover:bg-blue-400 blue-glow"
                     onClick={() => copy(selected.value)}
                   >
                     <IconCopy className="ms-2 h-4 w-4 text-black" />

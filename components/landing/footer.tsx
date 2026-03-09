@@ -48,14 +48,14 @@ export default function FooterSection({
           >
             {/* Glow / gradient background */}
             <div className="pointer-events-none absolute inset-0">
-              {/* Primary yellow glow */}
-              <div className="absolute -left-24 -top-24 h-80 w-80 rounded-full bg-yellow-500/20 blur-[120px]" />
+              {/* Primary blue glow */}
+              <div className="absolute -left-24 -top-24 h-80 w-80 rounded-full bg-blue-500/20 blur-[120px]" />
 
-              {/* Secondary soft yellow */}
-              <div className="absolute right-[-160px] top-10 h-[420px] w-[420px] rounded-full bg-yellow-400/15 blur-[140px]" />
+              {/* Secondary soft blue */}
+              <div className="absolute right-[-160px] top-10 h-[420px] w-[420px] rounded-full bg-blue-400/15 blur-[140px]" />
 
               {/* Bottom ambient glow */}
-              <div className="absolute bottom-[-160px] left-1/2 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-yellow-600/10 blur-[180px]" />
+              <div className="absolute bottom-[-160px] left-1/2 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-blue-600/10 blur-[180px]" />
 
               {/* Dark overlay for contrast */}
               <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/30 to-black/60" />
@@ -104,7 +104,7 @@ export default function FooterSection({
                     >
                       <div className="flex items-center gap-3">
                         <span className="grid h-10 w-10 place-items-center rounded-xl bg-white/10">
-                          <Mail className="h-5 w-5 text-yellow-400" />
+                          <Mail className="h-5 w-5 text-blue-400" />
                         </span>
                         <div className="text-right">
                           <div className="text-xs text-white/60">
@@ -123,7 +123,7 @@ export default function FooterSection({
                     >
                       <div className="flex items-center gap-3">
                         <span className="grid h-10 w-10 place-items-center rounded-xl bg-white/10">
-                          <Phone className="h-5 w-5 text-yellow-400" />
+                          <Phone className="h-5 w-5 text-blue-400" />
                         </span>
                         <div className="flex-1 text-right">
                           <div className="text-xs text-white/60">
@@ -151,7 +151,7 @@ export default function FooterSection({
                     >
                       <div className="flex items-center gap-3">
                         <span className="grid h-10 w-10 place-items-center rounded-xl bg-white/10">
-                          <MapPin className="h-5 w-5 text-yellow-400" />
+                          <MapPin className="h-5 w-5 text-blue-400" />
                         </span>
                         <div className="text-right">
                           <div className="text-xs text-white/60">العنوان</div>

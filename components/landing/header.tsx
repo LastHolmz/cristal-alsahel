@@ -110,7 +110,7 @@ export default function LandingHeader() {
 
                 <Button
                   className={cn(
-                    "rounded-2xl bg-yellow-500 text-black hover:bg-yellow-400 yellow-glow",
+                    "rounded-2xl bg-blue-500 text-black hover:bg-blue-400 blue-glow",
                   )}
                   asChild
                 >
@@ -163,7 +163,7 @@ export default function LandingHeader() {
 
                     <div className="flex gap-2">
                       <Button
-                        className="w-full rounded-2xl bg-yellow-500 text-black hover:bg-yellow-400"
+                        className="w-full rounded-2xl bg-blue-500 text-black hover:bg-blue-400"
                         onClick={() => {
                           scrollTo("contact");
                           setOpen(false);

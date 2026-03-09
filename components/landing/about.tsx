@@ -6,9 +6,9 @@ import { cn } from "@/lib/utils";
 import { TextAnimation } from "@/components/text-animation";
 
 const ABOUT_TITLE = "من نحن";
-const ABOUT_SHORT = "شركة استيراد سيارات";
+const ABOUT_SHORT = "شركة استيراد المواد الغذائية والفواكه";
 const ABOUT_PARAGRAPH =
-  "أبرز الشركات الرائدة في استيراد الآليات الثقيلة، المركبات، وقطع الغيار الأصلية، بالإضافة إلى تجهيزات المصانع والمشاريع الكبرى في ليبيا.";
+  "أبرز الشركات الرائدة في استيراد المواد الغذائية والفواكه";
 
 export default function AboutSection() {
   return (
@@ -56,7 +56,7 @@ export default function AboutSection() {
             <div className="flex flex-col gap-3 sm:flex-row">
               <Button
                 className={cn(
-                  "rounded-2xl bg-yellow-500 text-black hover:bg-yellow-400 yellow-glow",
+                  "rounded-2xl bg-blue-500 text-black hover:bg-blue-400 blue-glow",
                 )}
                 asChild
               >
